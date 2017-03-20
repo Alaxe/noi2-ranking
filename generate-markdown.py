@@ -31,7 +31,12 @@ for group in ['A', 'B', 'C', 'D', 'E']:
 
         mdFile.write('|{0}|'.format(position))
         for field in row:
-            mdFile.write(field + '|')
+            try:
+                field = str(round(float(field), 2))
+            except ValueError:
+                pass
+            finally:
+                mdFile.write(field + '|')
 
         mdFile.write('\n')
 
