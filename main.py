@@ -20,7 +20,6 @@ def list_sorted(path):
     ans = os.listdir(path)
     ans.sort()
     return ans
-            #print (Tasks[group][task])
 
 def compile_source(sourcePath, destPath):
     compileArgs = ['g++', '-O2', '-std=c++03', '-o', destPath, sourcePath]
@@ -88,7 +87,6 @@ def run_test(solution, test, tl):
             'verdict': 'WA'
         }
 
-#should return a list with test verdicts
 def test_solution(sourcePath, task):
     destPath = sourcePath[:-4]
 
@@ -125,9 +123,6 @@ def test_solution(sourcePath, task):
 def crawl_tasks():
     for group in os.listdir('problem-data'):
         Tasks[group] = {}
-#debug
-        if group != 'B':
-            continue
 
         for task in list_sorted(os.path.join('problem-data', group)):
             Tasks[group][task] = {}
@@ -158,22 +153,15 @@ def crawl_tasks():
                     'sol': os.path.join(testPath, outputFile)
                 })
 
-#debug
-
             res = test_solution(Tasks[group][task]['author'],
                     Tasks[group][task])
 
-            #print(MIN_TL, res['time'] * AUTHOR_TL_RATIO)
             Tasks[group][task]['tl'] = max(res['time'] * AUTHOR_TL_RATIO,
                     MIN_TL[group])
-            #print(Tasks[group][task]['tl'])
 
             print('TL {0}-{1}:  {2}'.format(group, task,
                 Tasks[group][task]['tl']))
 
-#Debuging purposes
-            #break
-        #break
 
 TestingData = {}
 
@@ -228,10 +216,6 @@ def test_solutions():
     for group in os.listdir('solutions'):
         TestingData[group] = []
 
-#debug
-        if group != 'B':
-            continue
-
         resultCnt = 0
 
         for participant in os.listdir(os.path.join('solutions', group)):
@@ -257,7 +241,6 @@ def test_solutions():
 
         TestingData[group].sort(key = lambda x: -x['score'])
         export_results(group)
-        #print (TestingData[group])
 
 crawl_tasks()
 test_solutions()
