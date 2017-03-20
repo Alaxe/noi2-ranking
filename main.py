@@ -126,8 +126,8 @@ def crawl_tasks():
     for group in os.listdir('problem-data'):
         Tasks[group] = {}
 #debug
-        #if group != 'A':
-            #continue
+        if group != 'B':
+            continue
 
         for task in list_sorted(os.path.join('problem-data', group)):
             Tasks[group][task] = {}
@@ -224,14 +224,12 @@ def export_results(group):
 
             writer.writerow(entry)
 
-
-
 def test_solutions():
     for group in os.listdir('solutions'):
         TestingData[group] = []
 
 #debug
-        if group == 'A':
+        if group != 'B':
             continue
 
         resultCnt = 0
@@ -263,4 +261,3 @@ def test_solutions():
 
 crawl_tasks()
 test_solutions()
-export_results()
