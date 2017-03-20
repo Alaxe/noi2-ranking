@@ -1,6 +1,14 @@
 # Резултати от НОИ2 2017г.
-В това репозитори съм качил скрипт, генериращ резултатите от НОИ2. За да работи
+В това [репозитори][github] съм качил скрипт, генериращ резултатите от НОИ2. За да работи
 съм качил също тестовете, авторовите решения и решенията на участниците.
+
+|Web страница    |CSV                     |Разширени резултати CSV                   |
+|:--------------:|:----------------------:|:----------------------------------------:|
+| [A](results/A) | [A.csv](results/A.csv) | [A-extended.csv](results/A-extended.csv) |
+| [B](results/A) | [B.csv](results/B.csv) | [A-extended.csv](results/A-extended.csv) |
+| [C](results/A) | [C.csv](results/C.csv) | [A-extended.csv](results/A-extended.csv) |
+| [D](results/A) | [D.csv](results/D.csv) | [A-extended.csv](results/A-extended.csv) |
+| [E](results/A) | [E.csv](results/E.csv) | [A-extended.csv](results/A-extended.csv) |
 
 ## Защо ?
 Поради скорошни промени в закона (мисля, не съм адвокат, *don't quote me on
@@ -61,3 +69,4 @@ this*), всички участници трябва да попълваме д�
 [keleved]: http://keleved.com
 [isolate]: https://github.com/ioi/isolate
 [email]: mailto:aleks.tcr@gmail.com
+[github]: https://github.com/Alaxe/noi2-ranking
