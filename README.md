@@ -5,10 +5,10 @@
 |Web страница    |CSV                     |Разширени резултати CSV                   |
 |:--------------:|:----------------------:|:----------------------------------------:|
 | [A](results/A) | [A.csv](results/A.csv) | [A-extended.csv](results/A-extended.csv) |
-| [B](results/A) | [B.csv](results/B.csv) | [A-extended.csv](results/A-extended.csv) |
-| [C](results/A) | [C.csv](results/C.csv) | [A-extended.csv](results/A-extended.csv) |
-| [D](results/A) | [D.csv](results/D.csv) | [A-extended.csv](results/A-extended.csv) |
-| [E](results/A) | [E.csv](results/E.csv) | [A-extended.csv](results/A-extended.csv) |
+| [B](results/B) | [B.csv](results/B.csv) | [B-extended.csv](results/B-extended.csv) |
+| [C](results/C) | [C.csv](results/C.csv) | [C-extended.csv](results/C-extended.csv) |
+| [D](results/D) | [D.csv](results/D.csv) | [D-extended.csv](results/D-extended.csv) |
+| [E](results/E) | [E.csv](results/E.csv) | [E-extended.csv](results/E-extended.csv) |
 
 ## Защо ?
 Поради скорошни промени в закона (мисля, не съм адвокат, *don't quote me on
