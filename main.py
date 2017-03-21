@@ -9,6 +9,41 @@ MIN_TL = {
     'D': 0.5,
     'E': 0.5
 }
+CYRILIC_CITIES = {
+    'Blagoevgrad': 'Благоевград', 
+    'Burgas': 'Бургас', 
+    'Dimitrovgrad': 'Димитровград', 
+    'Dobrich': 'Добрич',
+    'Gabrovo': 'Габрово',
+    'Kazanluk': 'Казанлък', 
+    'Kjustendil': 'Кюстендил', 
+    'Pazardjik': 'Пазарджик', 
+    'Pernik': 'Перник', 
+    'Pleven': 'Плевен', 
+    'Plovdiv': 'Пловдив',
+    'Razgrad': 'Разград', 
+    'Ruse': 'Русе',
+    'Shumen': 'Шумен',
+    'Silistra': 'Силистра',
+    'Sliven': 'Сливен',
+    'Smolyan': 'Смолян',
+    'SofiaNPMG': 'София',
+    'SofiaSMG': 'София',
+    'Sofia': 'София',
+    'StaraZagora': 'Стара Загора',
+    'Targovishte': 'Търговище',
+    'Troyan': 'Троян',
+    'Varna': 'Варна',
+    'VarnaMG': 'Варна',
+    'Vidin': 'Видин',
+    'Vraca': 'Враца',
+    'VTarnovo': 'Велико Търново',
+    'Yambol': 'Ямбол',
+    'Haskovo': 'Хасково',
+    'Kardjali': 'Кърджали',
+    'Samokov': 'Самоков',
+    'Lovech': 'Ловеч'
+}
 AUTHOR_TL_RATIO = 2
 COMPILE_TL = 2
 MEMORY_LIMIT = 512 * 1024
@@ -68,7 +103,7 @@ def run_test(solution, test, tl):
         return {
             'score': 0,
             'time': 'N/A',
-            'verdict': 'TL'
+            'verdict': 'TL' if sandboxMsg[:4] == 'Time' else 'RE'
         }
 
     runtime = float(sandboxMsg[4:9])
@@ -153,6 +188,7 @@ def crawl_tasks():
                     'sol': os.path.join(testPath, outputFile)
                 })
 
+            #continue
             res = test_solution(Tasks[group][task]['author'],
                     Tasks[group][task])
 
@@ -172,10 +208,10 @@ def export_results(group):
     with open(os.path.join('results', group + '.csv'), 'w') as f:
         writer = csv.writer(f)
 
-        header = ['Name', 'City']
+        header = ['Име', 'Град']
         for task in taskNames:
             header.append(task.capitalize())
-        header.append('Score')
+        header.append('Точки')
 
         #print(header)
         writer.writerow(header)
@@ -192,13 +228,13 @@ def export_results(group):
     with open(os.path.join('results', group + '-extended.csv'), 'w') as f:
         writer = csv.writer(f)
 
-        header = ['name', 'city']
+        header = ['име', 'град']
         for task in taskNames:
             header.append(task + '-score')
             header.append(task + '-verdict')
             header.append(task + '-max-time')
 
-        header.append('score')
+        header.append('точки')
 
         writer.writerow(header)
 
@@ -215,15 +251,18 @@ def export_results(group):
 def test_solutions():
     for group in os.listdir('solutions'):
         TestingData[group] = []
+        if group != 'D':
+            continue
 
         resultCnt = 0
 
         for participant in os.listdir(os.path.join('solutions', group)):
             entry = {
                 'name': participant.split('-')[0],
-                'city': participant.split('-')[1],
+                'city': CYRILIC_CITIES[participant.split('-')[1]],
                 'score': 0
             }
+            #print(entry)
 
             participantDir = os.path.join('solutions', group, participant)
 
@@ -243,4 +282,7 @@ def test_solutions():
         export_results(group)
 
 crawl_tasks()
+#print(Tasks['B']['paint']['tl'])
+#print(test_solution(os.path.join('solutions', 'B', 'VPV-Gabrovo', 'paint.cpp'),
+        #Tasks['B']['paint']))
 test_solutions()
