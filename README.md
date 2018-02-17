@@ -2,7 +2,7 @@
 На тази страница съм качил предварителни резултати от НОИ2.
 
 ## 2018
-|Web страница         |CSV                          |Разширени резултати CSV                        |
+| Web страница        | CSV                         | Разширени резултати CSV                       |
 |:-------------------:|:---------------------------:|:---------------------------------------------:|
 | [A](2018/results/A) | [A.csv](2018/results/A.csv) | [A-extended.csv](2018/results/A-extended.csv) |
 | [B](2018/results/B) | [B.csv](2018/results/B.csv) | [B-extended.csv](2018/results/B-extended.csv) |
@@ -11,7 +11,7 @@
 | [E](2018/results/E) | [E.csv](2018/results/E.csv) | [E-extended.csv](2018/results/E-extended.csv) |
 
 ## 2017
-|Web страница         |CSV                          |Разширени резултати CSV                        |
+| Web страница        | CSV                          | Разширени резултати CSV                      |
 |:-------------------:|:---------------------------:|:---------------------------------------------:|
 | [A](2017/results/A) | [A.csv](2017/results/A.csv) | [A-extended.csv](2017/results/A-extended.csv) |
 | [B](2017/results/B) | [B.csv](2017/results/B.csv) | [B-extended.csv](2017/results/B-extended.csv) |
