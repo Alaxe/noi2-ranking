@@ -1,4 +1,0 @@
-﻿Име: Емил Иво Рибарев
-Клас: VIII
-Група: C
-Code::Blocks Software
