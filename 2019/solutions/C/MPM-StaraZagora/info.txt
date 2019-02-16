@@ -1,0 +1,4 @@
+Стара Загора ППМГ "Гео Милев" Михаил Петков Михов 7а клас Група C
+power.cpp CodeBlocks
+m3.cpp CodeBlocks
+alt.cpp CodeBlocks
