@@ -1,32 +1,42 @@
 На тази страница съм качил предварителни резултати от НОИ2.
 
+### 2019
+
+| Web страница        | CSV         | Разширени резултати CSV               |
+|:-------------------:|:-----------:|:-------------------------------------:|
+| [A](2019/A) | [A.csv](2019/A.csv) | [A-extended.csv](2019/A-extended.csv) |
+| [B](2019/B) | [B.csv](2019/B.csv) | [B-extended.csv](2019/B-extended.csv) |
+| [C](2019/C) | [C.csv](2019/C.csv) | [C-extended.csv](2019/C-extended.csv) |
+| [D](2019/D) | [D.csv](2019/D.csv) | [D-extended.csv](2019/D-extended.csv) |
+| [E](2019/E) | [E.csv](2019/E.csv) | [E-extended.csv](2019/E-extended.csv) |
+
 ### 2018
 
-| Web страница        | CSV                         | Разширени резултати CSV                       |
-|:-------------------:|:---------------------------:|:---------------------------------------------:|
-| [A](2018/A) | [A.csv](results/2018/A.csv) | [A-extended.csv](2018/results/A-extended.csv) |
-| [B](2018/B) | [B.csv](results/2018/B.csv) | [B-extended.csv](2018/results/B-extended.csv) |
-| [C](2018/C) | [C.csv](results/2018/C.csv) | [C-extended.csv](2018/results/C-extended.csv) |
-| [D](2018/D) | [D.csv](results/2018/D.csv) | [D-extended.csv](2018/results/D-extended.csv) |
-| [E](2018/E) | [E.csv](results/2018/E.csv) | [E-extended.csv](2018/results/E-extended.csv) |
+| Web страница        | CSV         | Разширени резултати CSV               |
+|:-------------------:|:-----------:|:-------------------------------------:|
+| [A](2018/A) | [A.csv](2018/A.csv) | [A-extended.csv](2018/A-extended.csv) |
+| [B](2018/B) | [B.csv](2018/B.csv) | [B-extended.csv](2018/B-extended.csv) |
+| [C](2018/C) | [C.csv](2018/C.csv) | [C-extended.csv](2018/C-extended.csv) |
+| [D](2018/D) | [D.csv](2018/D.csv) | [D-extended.csv](2018/D-extended.csv) |
+| [E](2018/E) | [E.csv](2018/E.csv) | [E-extended.csv](2018/E-extended.csv) |
 
 ### 2017
 
-| Web страница        | CSV                         | Разширени резултати CSV                      |
-|:-------------------:|:---------------------------:|:---------------------------------------------:|
-| [A](2017/A) | [A.csv](results/2017/A.csv) | [A-extended.csv](2017/results/A-extended.csv) |
-| [B](2017/B) | [B.csv](results/2017/B.csv) | [B-extended.csv](2017/results/B-extended.csv) |
-| [C](2017/C) | [C.csv](results/2017/C.csv) | [C-extended.csv](2017/results/C-extended.csv) |
-| [D](2017/D) | [D.csv](results/2017/D.csv) | [D-extended.csv](2017/results/D-extended.csv) |
-| [E](2017/E) | [E.csv](results/2017/E.csv) | [E-extended.csv](2017/results/E-extended.csv) |
+| Web страница        | CSV         | Разширени резултати CSV               |
+|:-------------------:|:-----------:|:-------------------------------------:|
+| [A](2017/A) | [A.csv](2017/A.csv) | [A-extended.csv](2017/A-extended.csv) |
+| [B](2017/B) | [B.csv](2017/B.csv) | [B-extended.csv](2017/B-extended.csv) |
+| [C](2017/C) | [C.csv](2017/C.csv) | [C-extended.csv](2017/C-extended.csv) |
+| [D](2017/D) | [D.csv](2017/D.csv) | [D-extended.csv](2017/D-extended.csv) |
+| [E](2017/E) | [E.csv](2017/E.csv) | [E-extended.csv](2017/E-extended.csv) |
 
-### Подробности
+## Подробности
 Последните няколко години скоро след състезанието на [keleved.com][keleved] се
 публикуват работите на участниците. Тъй като официалните резултати обикновено се
 бавят няколко дни, реших сам да ги тествам, за да се избегне чакането.
 
 Тези резултати **не са верни**, или поне не напълно.
-Бих ги считал ги по-скоро за *ориентировъчни*. 
+Бих ги считал ги по-скоро за *ориентировъчни*.
 Има много фактори, които допринасят за разминавания между моите резултати и
 официалните  в т.ч. различни компилатори, различни ограничения по време,
 контестации, грешни тестове и др.
