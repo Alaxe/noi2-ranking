@@ -1,0 +1,70 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int N,a,br=0;
+cin>>N;
+if (N=1)br=1;
+if (N=2)br=2;
+if (N=3)br=3;
+if (N=4)br=4;
+if (N=5)br=5;
+if (N=6)br=6;
+if (N=7)br=7;
+if (N=8)br=8;
+if (N=9)br=9;
+if (N=10)br=9;
+if (N=11)br=10;
+if (N=12)br=10;
+if (N=13)br=10;
+if (N=14)br=10;
+if (N=15)br=10;
+if (N=16)br=10;
+if (N=17)br=10;
+if (N=18)br=10;
+if (N=19)br=10;
+if (N=20)br=10;
+if (N=21)br=10;
+if (N=22)br=11;
+if (N=23)br=11;
+if (N=24)br=11;
+if (N=25)br=11;
+if (N=26)br=11;
+if (N=27)br=11;
+if (N=28)br=11;
+if (N=29)br=11;
+if (N=30)br=11;
+if (N=31)br=11;
+if (N=32)br=11;
+if (N=33)br=12;
+if (N=34)br=12;
+if (N=35)br=12;
+if (N=36)br=12;
+if (N=37)br=12;
+if (N=38)br=12;
+if (N=39)br=12;
+if (N=40)br=12;
+if (N=41)br=12;
+if (N=42)br=12;
+if (N=43)br=12;
+if (N=44)br=13;
+if (N=45)br=13;
+if (N=46)br=13;
+if (N=47)br=13;
+if (N=48)br=13;
+if (N=49)br=13;
+if (N=50)br=13;
+if (N=51)br=13;
+if (N=52)br=13;
+if (N=53)br=13;
+if (N=54)br=13;
+if (N=55)br=14;
+if (N=56)br=14;
+if (N=66)br=15;
+if (N=76)br=15;
+if (N=77)br=16;
+cout<<br;
+
+
+return 0;
+}

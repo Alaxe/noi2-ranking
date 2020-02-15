@@ -1,0 +1,6 @@
+Емил Иво Рибарев
+9 клас
+Група B
+
+double.cpp - Code::Blocks 17.12
+brackets.cpp - Code::Blocks 17.12

@@ -1,0 +1,64 @@
+#include<iostream>
+using namespace std;
+int main (){
+long long n,x,r;
+cin>>n>>x;
+n=n%6;
+if(n==1){
+    if(x==0){
+       r=1;
+    }
+    if(x==1){
+        r=0;
+    }
+    if(x==2){
+       r=2;
+    }
+}
+if(n==2){
+    if(x==0){
+       r=1;
+    }
+    if(x==1){
+        r=2;
+    }
+    if(x==2){
+       r=0;
+    }
+}
+if(n==3){
+    if(x==0){
+       r=2;
+    }
+    if(x==1){
+        r=1;
+    }
+    if(x==2){
+       r=0;
+    }
+}
+if(n==4){
+    if(x==0){
+       r=2;
+    }
+    if(x==1){
+        r=0;
+    }
+    if(x==2){
+       r=1;
+    }
+}
+if(n==5){
+    if(x==0){
+       r=0;
+    }
+    if(x==1){
+        r=2;
+    }
+    if(x==2){
+       r=1;
+    }
+}
+cout<<r;
+return 0;
+}

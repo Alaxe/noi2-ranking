@@ -1,0 +1,8 @@
+Име: Самуил Ивайлов Ганев
+Клас: 10 клас
+Състезателна група: B
+
+IDE и компилатор:
+double: CodeBlocks - MinGW
+brackets: CodeBlocks - MinGW
+ucongruence: CodeBlocks - MinGW

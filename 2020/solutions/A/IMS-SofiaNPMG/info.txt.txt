@@ -1,0 +1,8 @@
+Игнес Михаилова Симеонова
+12 клас
+А група
+СМГ
+
+sort - CodeBlocks - MinGW
+red - CodeBlocks - MinGW
+winter - CodeBlocks - MinGW

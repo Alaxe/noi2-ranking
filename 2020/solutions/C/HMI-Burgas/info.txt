@@ -1,0 +1,4 @@
+Християн Мартинов Иванов, 8"Д" клас, група C
+strip.cpp - Code::Blocks 17.12
+range.cpp - Code::Blocks 17.12
+congruence.cpp - Code::Blocks 17.12

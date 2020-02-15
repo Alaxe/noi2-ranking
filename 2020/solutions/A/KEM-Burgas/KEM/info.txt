@@ -1,0 +1,5 @@
+Кристиан Емилов Минчев
+12 клас
+A състезателна група
+red.cpp - Code::Blocks, GNU GCC Compiler
+sort.cpp - Code::Blocks, GNU GCC Compiler

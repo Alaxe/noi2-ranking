@@ -1,0 +1,6 @@
+Александър Георгиев Радославов
+12 клас
+група A
+sort - CodeBlocks, MinGW C++11
+red - CodeBlocks,  MinGW C++11
+winter - CodeBlocks,  MinGW C++11

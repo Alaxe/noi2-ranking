@@ -1,0 +1,3 @@
+- Мартин Стефанов Севов, 9 клас, група B
+- Visual Studio 2017 Community
+double.cpp - Visual Studio 2017 Community

@@ -1,0 +1,6 @@
+Благо Ивов Гунев
+9 клас СМГ
+B група
+double - Code::Blocks 17.12 MinGW c++11
+brackets - Code::Blocks 17.12 MinGW c++11
+ucongruence - Code::Blocks 17.12 MinGW c++11

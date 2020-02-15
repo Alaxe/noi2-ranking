@@ -1,0 +1,6 @@
+Георги Пейчев Пеев
+10 клас
+група В
+double - CodeBlocks
+brackets - CodeBlocks
+ucongruence - CodeBlocks

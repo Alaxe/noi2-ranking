@@ -1,0 +1,5 @@
+Явор Пламенов Василев
+СМГ
+8 клас
+C група
+GNU GCC Compiler; Code::Blocks 13.12

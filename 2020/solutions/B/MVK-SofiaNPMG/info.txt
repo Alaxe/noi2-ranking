@@ -1,0 +1,6 @@
+Мартин Венциславов Караиванов
+9 клас
+Състезателна група B
+double - CodeBlocks - MinGW
+brackets - CodeBlocks - MinGW
+ucongruence - CodeBlocks - MinGW

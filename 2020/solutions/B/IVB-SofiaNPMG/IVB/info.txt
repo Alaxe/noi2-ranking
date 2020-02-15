@@ -1,0 +1,6 @@
+Иван Валентинов Божанин
+10. клас
+B
+1. - CodeBlocks - MinGW
+2. - CodeBlocks - MinGW
+3. - CodeBlocks - MinGW

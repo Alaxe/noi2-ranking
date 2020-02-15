@@ -1,0 +1,7 @@
+Йордан Боянов Илиев
+11 клас СМГ
+А група
+sort - Code::Blocks 17.12 mingw c++11
+red - Code::Blocks 17.12 mingw c++11
+winter - Code::Blocks 17.12 mingw c++11
+

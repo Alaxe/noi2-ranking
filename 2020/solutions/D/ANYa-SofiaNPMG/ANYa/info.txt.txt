@@ -1,0 +1,6 @@
+Антон Николаев Янков
+6 клас
+D група
+password: CodeBlocks-MinGW
+dry: CodeBlocks-MinGW
+restore: CodeBlocks-MinGW

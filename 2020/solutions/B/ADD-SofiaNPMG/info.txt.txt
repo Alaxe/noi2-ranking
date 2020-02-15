@@ -1,0 +1,6 @@
+Атанас Димитров Димитров
+9 клас СМГ "Паисий Хилендарски"
+B група
+task1 - CodeBlocks-MinGW (Have g++ follow the C++11 ISO C++ language standard)
+task2 - CodeBlocks-MinGW (Have g++ follow the C++11 ISO C++ language standard)
+task3 - CodeBlocks-MinGW (Have g++ follow the C++11 ISO C++ language standard)

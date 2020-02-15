@@ -1,0 +1,6 @@
+Теодор Цветалинов Тотев
+8 клас
+C група
+strip: CodeBlocks - MinGW
+range: CodeBlocks - MinGW
+congruence: CodeBlocks - MinGW

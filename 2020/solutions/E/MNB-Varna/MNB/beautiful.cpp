@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    long long n, k = 0;
+    cin >> n;
+    if ( n >= 11 && n <= 21) cout << 10 << endl;
+    if ( n >= 22 && n <= 32 ) cout << 11 << endl;
+    if ( n == 1 ) cout << 1;
+    if ( n == 2 ) cout << 2;
+    if ( n == 3 ) cout << 3;
+    if ( n == 4 ) cout << 4;
+    if ( n == 5 ) cout << 5;
+    if ( n == 6 ) cout << 6;
+    if ( n == 7 ) cout << 7;
+    if ( n == 8 ) cout << 8;
+    if ( n == 9 || n == 10 ) cout << 9;
+    if ( n >= 33 && n <= 43 ) cout << 12;
+    if ( n >= 44 && n <= 54 ) cout << 13;
+    if ( n >= 55 && n <= 65 ) cout << 14;
+    if ( n >= 66 && n <= 76 ) cout << 15;
+    if ( n >= 77 && n <= 87 ) cout << 16;
+    if ( n >= 88 && n <= 98 ) cout << 17;
+    if ( n >= 99 && n <= 110 ) cout << 18;
+    if ( n >= 111 && n <= 221 ) cout << 19;
+    if ( n >= 222 && n <= 332 ) cout << 20;
+    if ( n >= 333 && n <= 443 ) cout << 21;
+    if ( n >= 444 && n <= 554 ) cout << 22;
+    if ( n >= 555 && n <= 665 ) cout << 23;
+    if ( n >= 666 && n <= 776 ) cout << 24;
+    if ( n >= 777 && n <= 887 ) cout << 25;
+    if ( n >= 888 && n <= 998 ) cout << 26;
+    if ( n >= 999 && n <= 1110 ) cout << 27;
+    if ( n >= 1111 && n <= 2221 ) cout << 28;
+    if ( n >= 2222 && n <= 3332 ) cout << 29;
+    if ( n >= 3333 && n <= 4443 ) cout << 30;
+    if ( n >= 4444 && n <= 5554 ) cout << 31;
+    if ( n >= 5555 && n <= 6665 ) cout << 32;
+    if ( n >= 6666 && n <= 7776 ) cout << 33;
+    if ( n >= 7777 && n <= 8887 ) cout << 34;
+    if ( n >= 8888 && n <= 9998 ) cout << 35;
+    if ( n >= 9999 && n <= 11110 ) cout << 36;
+    if ( n >= 11111 && n <= 22221 ) cout << 37;
+    if ( n >= 22222 && n <= 33332 ) cout << 38;
+    if ( n >= 33333 && n <= 44443 ) cout << 39;
+    if ( n >= 44444 && n <= 55554 ) cout << 40;
+    if ( n >= 55555 && n <= 66665 ) cout << 41;
+    if ( n >= 66666 && n <= 77776 ) cout << 42;
+    if ( n >= 77777 && n <= 88887 ) cout << 43;
+    return 0;
+}

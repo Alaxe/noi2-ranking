@@ -1,0 +1,6 @@
+Любо Даниел. Дилов
+9 клас
+B група
+double: Code Blocks - MinGw
+brackets: Code Blocks - MinGw
+ucongruence: Code Blocks - MinGw

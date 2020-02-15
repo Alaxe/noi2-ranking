@@ -1,0 +1,4 @@
+Бойко Георгиев Георгиев
+10 ТУЕС
+B
+CodeBlocks - GNU GCC Compiler
